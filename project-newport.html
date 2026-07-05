@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Newport Residence — Crafted Spaces</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/project.css" />
+  <script>
+    (function(){
+      if(localStorage.getItem('theme')==='dark'){
+        document.documentElement.style.visibility='hidden';
+        document.addEventListener('DOMContentLoaded',function(){
+          document.body.classList.add('dark');
+          document.documentElement.style.visibility='';
+        });
+      }
+    })();
+  </script>
+</head>
+<body>
+
+<nav id="navbar">
+  <a href="index.html" class="nav-brand">Crafted Spaces</a>
+  <ul class="nav-links">
+    <li><a href="index.html#projects">Projects</a></li>
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+  </ul>
+  <div style="display:flex;align-items:center;gap:1rem;outline:none;border:none;">
+    <button class="dark-toggle" id="darkToggle" aria-label="Toggle dark mode">
+      <svg class="icon-sun" viewBox="0 0 24 24" stroke-width="1.8" fill="none"><circle cx="12" cy="12" r="5"/><path d="M12 2v2M12 20v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M2 12h2M20 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" stroke-width="1.8" fill="none"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+    </button>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" id="mobileClose">✕</button>
+  <a href="index.html#projects" class="mobile-link">Projects</a>
+  <a href="index.html#about" class="mobile-link">About</a>
+  <a href="index.html#contact" class="mobile-link">Contact</a>
+</div>
+
+<div class="project-hero">
+  <div class="project-hero-inner">
+  <img src="assets/images/newport/collage-1.webp" alt="Newport Residence" class="project-hero-img" />
+  <div class="project-hero-meta">
+    <a href="index.html#projects" class="back-link">
+      <svg viewBox="0 0 24 24" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      All Projects
+    </a>
+    <div class="project-title-block">
+      <p class="project-eyebrow">Residential Joinery</p>
+      <h1 class="project-title">Newport Residence<br/>Kitchen &amp; Laundry</h1>
+      <p class="project-location">
+        <svg viewBox="0 0 24 24" stroke-width="2"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+        Newport
+      </p>
+      <div class="project-tags">
+        <span class="project-tag">Kitchen</span>
+        <span class="project-tag">Walk-in Pantry</span>
+        <span class="project-tag">Laundry</span>
+        <span class="project-tag">Bathroom</span>
+        <span class="project-tag">BIR</span>
+      </div>
+    </div>
+  </div>
+  </div><!-- end project-hero-inner -->
+</div>
+
+<div class="project-content">
+
+  <div class="content-section">
+    <div class="content-two-col">
+      <div>
+        <p class="section-label">Project Summary</p>
+        <div class="section-divider"></div>
+        <h2 class="content-h2">Calm meets character</h2>
+        <p class="content-body">
+          The Newport Residence kitchen project was developed to create a functional and calming central living space tailored to the needs of a growing family. As part of a full house renovation, the design focused on balancing practicality with a refined aesthetic, resulting in a kitchen that feels both welcoming and highly functional for everyday living.
+        </p>
+        <p class="content-body">
+          The design approach emphasized clean lines, subtle detailing, and a carefully selected material palette. Warm timber textures from Polytec "Habitat" were paired with the crisp finish of "Blossom White," creating a sophisticated contrast that allows the joinery to stand out gently without overpowering the surrounding space.
+        </p>
+        <p class="content-body">
+          To ensure durability and long-term usability, the kitchen incorporated a 20mm builder's range stone benchtop — a hard-wearing and low-maintenance surface suited for a busy family environment while remaining aligned with the project budget.
+        </p>
+      </div>
+      <div>
+        <p class="section-label">Client Requirements</p>
+        <div class="section-divider"></div>
+        <ul class="requirements-list">
+          <li>Polytec Habitat used for colour</li>
+          <li>Polytec Blossom White cabinetry</li>
+          <li>20mm stone benchtops</li>
+          <li>Durable pre-finished surfaces</li>
+          <li>Budget-conscious material selection</li>
+          <li>Integrated kitchen storage solutions</li>
+          <li>High-traffic family functionality</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- PHOTO GALLERY -->
+  <div class="content-section">
+    <p class="section-label">Photography</p>
+    <div class="section-divider"></div>
+    <h2 class="content-h2">Completed Works</h2>
+    <div class="photo-gallery" style="margin-top:1.5rem;">
+      <img src="assets/images/newport/image-2.webp" alt="Newport kitchen" class="gallery-img" loading="lazy" />
+      <img src="assets/images/newport/image-3.webp" alt="Newport kitchen detail" class="gallery-img" loading="lazy" />
+      <img src="assets/images/newport/image-4.webp" alt="Newport kitchen overview" class="gallery-img" loading="lazy" />
+    </div>
+  </div>
+
+  <!-- RENDERS + PDF -->
+  <div class="content-section">
+    <p class="section-label">Design &amp; Documentation</p>
+    <div class="section-divider"></div>
+    <h2 class="content-h2">Render vs Reality</h2>
+    <div class="render-comparison" style="margin-top:1.5rem;">
+      <div class="render-item">
+        <img src="assets/renders/newport/render-1.png" alt="Newport render 1" loading="lazy" />
+        <span class="render-badge render">Render</span>
+      </div>
+      <div class="render-item">
+        <img src="assets/images/newport/image-3.webp" alt="Newport finished" loading="lazy" />
+        <span class="render-badge finished">Finished</span>
+      </div>
+    </div>
+    <div class="render-grid">
+      <img src="assets/renders/newport/render-2.png" alt="Newport render 2" loading="lazy" />
+      <img src="assets/renders/newport/render-3.png" alt="Newport render 3" loading="lazy" />
+      <img src="assets/renders/newport/render-4.png" alt="Newport render 4" loading="lazy" />
+    </div>
+    <div style="margin-top:2rem;">
+      <div class="pdf-viewer-wrap">
+        <div class="pdf-viewer-header">
+          <span class="pdf-viewer-title">Production Drawing — Newport Residence</span>
+          <a href="assets/pdfs/newport/production.pdf" target="_blank" class="pdf-open-btn">
+            Open full PDF
+            <svg viewBox="0 0 24 24" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+          </a>
+        </div>
+        <iframe src="assets/pdfs/newport/production.pdf" class="pdf-embed" title="Newport Production Drawing"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- TESTIMONIAL -->
+  <div class="content-section">
+    <p class="section-label">Client Testimonial</p>
+    <div class="section-divider"></div>
+    <div class="testimonial-block">
+      <p class="testimonial-quote">"We're so happy with our kitchen and the whole experience was great. Everything ran really smoothly, communication was easy, and the work was done efficiently without any fuss. What really stood out was how well everything was coordinated with our builder and the other trades on site, which made the whole process feel easy and well managed. The finished kitchen looks fantastic and we're really pleased with how it all came together. Highly recommend."</p>
+      <p class="testimonial-author">John D — Homeowner, Newport</p>
+    </div>
+  </div>
+
+</div>
+
+<div class="project-nav">
+  <a href="project-sorrento.html" class="proj-nav-link">
+    <svg viewBox="0 0 24 24" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+    <div>
+      <p class="proj-nav-label">Previous</p>
+      <p class="proj-nav-name">Sorrento Residence</p>
+    </div>
+  </a>
+  <a href="project-rowville.html" class="proj-nav-link">
+    <div style="text-align:right;">
+      <p class="proj-nav-label">Next</p>
+      <p class="proj-nav-name">Rowville Entertainment Unit</p>
+    </div>
+    <svg viewBox="0 0 24 24" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+  </a>
+</div>
+
+<footer>
+  <span class="footer-brand">Crafted Spaces</span>
+  <p>&copy; 2026 Crafted Spaces. All rights reserved.</p>
+</footer>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose">✕</button>
+  <button class="lightbox-prev" id="lightboxPrev"><svg viewBox="0 0 24 24" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button>
+  <img id="lightboxImg" src="" alt="Gallery image" />
+  <button class="lightbox-next" id="lightboxNext"><svg viewBox="0 0 24 24" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></button>
+</div>
+
+<script src="assets/project.js"></script>
+<script>
+  const darkToggle = document.getElementById('darkToggle');
+  darkToggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+    localStorage.setItem('theme', document.body.classList.contains('dark') ? 'dark' : 'light');
+  });
+</script>
+</body>
+</html>
